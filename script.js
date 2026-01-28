@@ -205,38 +205,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-//منو همبرگری صفحه اصلی
 document.addEventListener('DOMContentLoaded', function () {
     const hamburgerBtn = document.getElementById('hamburgerBtn');
+
     const mainMenu = document.getElementById('mainMenu');
-    if (hamburgerBtn && mainMenu) {
+    const mainMenu1 = document.getElementById('mainMenu1');
+    const mainMenu2 = document.getElementById('mainMenu2');
+
+    if (hamburgerBtn) {
         hamburgerBtn.addEventListener('click', function (e) {
             e.preventDefault();
-            mainMenu.classList.toggle('active');
-        });
-    }
-});
-//منو همبرگری صفحه city
-document.addEventListener('DOMContentLoaded', function () {
-    const hamburgerBtn = document.getElementById('hamburgerBtn');
-    const mainMenu1 = document.getElementById('mainMenu1'); 
-    
-    if (hamburgerBtn && mainMenu1) {
-        hamburgerBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-            mainMenu1.classList.toggle('active'); 
-        });
-    }
-});
-//منو همبرگری صفحه about
-document.addEventListener('DOMContentLoaded', function () {
-    const hamburgerBtn = document.getElementById('hamburgerBtn');
-    const mainMenu2 = document.getElementById('mainMenu2'); 
-    
-    if (hamburgerBtn && mainMenu2) {
-        hamburgerBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-            mainMenu2.classList.toggle('active'); 
+
+            if (mainMenu) {
+                mainMenu.classList.toggle('active');
+            }
+            if (mainMenu1) {
+                mainMenu1.classList.toggle('active');
+            }
+            if (mainMenu2) {
+                mainMenu2.classList.toggle('active');
+            }
         });
     }
 });

@@ -1210,6 +1210,7 @@ button.btn-register:hover {
     }
 
     .menu {
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1339,6 +1340,7 @@ button.btn-register:hover {
     }
 
     .menu {
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1838,6 +1840,7 @@ button.btn-register:hover {
     }
 
     .menu1 {
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1956,6 +1959,7 @@ button.btn-register:hover {
     }
 
     .menu1 {
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -2049,6 +2053,7 @@ button.btn-register:hover {
     }
 
     .menu2 {
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -2167,6 +2172,7 @@ button.btn-register:hover {
     }
 
     .menu2 {
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         position: absolute;

@@ -1211,12 +1211,13 @@ button.btn-register:hover {
 
 @media (max-width: 1024px) {
 
-    .header {
+    /*.header {
         padding: 0.625rem 1rem;
         gap: 15px;
-    }
+    }*/
 
-    .border1 {
+    .border1,
+    .border2 {
         height: 200px;
     }
 
@@ -1250,7 +1251,7 @@ button.btn-register:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         max-height: 80vh;
         overflow-y: auto;
-        width: 10px;
+
     }
 
     .menu.active,

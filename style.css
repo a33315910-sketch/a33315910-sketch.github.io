@@ -1216,6 +1216,10 @@ button.btn-register:hover {
 
 @media (max-width: 1024px) {
 
+    .header {
+        position: fixed;
+    }
+
     .bac {
         height: 800px;
     }

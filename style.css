@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     overflow-x: hidden;
     margin: 0;
@@ -1279,6 +1280,11 @@ button.btn-register:hover {
         display: none;
     }
 
+    .border1,
+    .border2 {
+        height: 180px;
+    }
+
     @media (max-width: 768px) {
         .desktop-text {
             display: none;
@@ -1458,7 +1464,7 @@ button.btn-register:hover {
         width: 45%;
         display: inline-block;
         vertical-align: top;
-        margin: 20px 2% !important;
+        margin: 10px 2% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
@@ -2172,7 +2178,7 @@ button.btn-register:hover {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    
+
     .hamburger {
         display: flex;
     }

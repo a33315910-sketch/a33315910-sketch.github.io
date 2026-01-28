@@ -1216,9 +1216,8 @@ button.btn-register:hover {
         gap: 15px;
     }
 
-    .border1,
     .border1 {
-        height: 160px;
+        height: 180px;
     }
 
     .logo {
@@ -1251,6 +1250,7 @@ button.btn-register:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         max-height: 80vh;
         overflow-y: auto;
+        width: 100%;
     }
 
     .menu.active,

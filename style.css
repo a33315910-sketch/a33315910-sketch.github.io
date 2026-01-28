@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     overflow-x: hidden;
     margin: 0;
@@ -2167,6 +2172,7 @@ button.btn-register:hover {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    
     .hamburger {
         display: flex;
     }
@@ -2184,7 +2190,6 @@ button.btn-register:hover {
         backdrop-filter: blur(15px);
         padding: 0;
         margin: 0;
-        margin-right: -10px;
         max-height: 0;
         transition: transform 0.3s ease-out;
         transform: translateX(100%);

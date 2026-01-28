@@ -16,7 +16,7 @@ body {
 .bac {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-        url('images/photo22938694092.jpg');
+        url('photo22938694092.jpg');
     height: 640px;
 }
 

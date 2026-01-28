@@ -1217,7 +1217,7 @@ button.btn-register:hover {
     }
 
     .border1 {
-        height: 180px;
+        height: 200px;
     }
 
     .logo {
@@ -1250,7 +1250,7 @@ button.btn-register:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         max-height: 80vh;
         overflow-y: auto;
-        width: 100%;
+        width: 10px;
     }
 
     .menu.active,

@@ -1219,6 +1219,7 @@ button.btn-register:hover {
     .header {
         position: fixed;
         margin-right: 100px;
+        width: 100%;
     }
 
     .border1,

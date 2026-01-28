@@ -1216,7 +1216,9 @@ button.btn-register:hover {
 
 @media (max-width: 1024px) {
 
-  
+    .bac {
+        height: 800px;
+    }
 
     .border1,
     .border2 {

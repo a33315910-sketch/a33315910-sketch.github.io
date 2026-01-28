@@ -2185,7 +2185,7 @@ button.btn-register:hover {
         padding: 0;
         margin: 0;
         margin-right: 30px;
-        width: 100%;
+        width: 100px;
         max-height: 0;
         transition: transform 0.3s ease-out;
         transform: translateX(100%);

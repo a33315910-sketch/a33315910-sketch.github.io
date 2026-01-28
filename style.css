@@ -57,7 +57,7 @@ body {
 }
 
 .menu {
-    margin-left: 140px;
+
     list-style: none;
     display: flex;
     gap: 20px;
@@ -1214,6 +1214,11 @@ button.btn-register:hover {
     .header {
         padding: 0.625rem 1rem;
         gap: 15px;
+    }
+
+    .border1,
+    .border1 {
+        height: 160px;
     }
 
     .logo {

@@ -1204,6 +1204,9 @@ button.btn-register:hover {
 }
 
 @media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
 
     .hamburger {
         display: flex;

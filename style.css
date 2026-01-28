@@ -1218,6 +1218,7 @@ button.btn-register:hover {
 
     .header {
         position: fixed;
+        width: 396px;
     }
 
     .bac {

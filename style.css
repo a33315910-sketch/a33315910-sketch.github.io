@@ -2275,3 +2275,139 @@ button.btn-register:hover {
 }
 
 @media (min-width: 1025px) {}
+@media (max-width: 480px) {
+    /* مشکل هدر: حذف margin و padding اضافی */
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        top: 0;
+    }
+    
+    /* حذف علامت‌های اسلایدر در موبایل */
+    .slider-wrapper {
+        position: relative;
+    }
+    
+    .slider-wrapper::before,
+    .slider-wrapper::after {
+        display: none !important;
+    }
+    
+    /* اصلاح پوزیشن و عرض منو */
+    .menu, .menu1, .menu2 {
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: none !important;
+    }
+    
+    /* حذف فاصله‌های اضافی در کارت‌ها */
+    .card-container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* تضمین چسبیدن کامل به دو طرف */
+    .container, .main-container, .content-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    /* اصلاح نمایش لوگو */
+    .logo {
+        margin-left: 15px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* مشکل هدر برای تبلت */
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        top: 0;
+    }
+    
+    /* حذف علامت‌های اسلایدر برای تبلت */
+    .slider-wrapper::before,
+    .slider-wrapper::after {
+        display: none !important;
+    }
+    
+    /* اصلاح منو */
+    .menu, .menu1, .menu2 {
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: none !important;
+    }
+    
+    .menu2 {
+        position: absolute;
+        transform: none !important;
+    }
+}
+
+/* برای اطمینان بیشتر از حذف علامت‌های اسلایدر */
+.slider-wrapper .arrow,
+.slider-wrapper .arrow-left,
+.slider-wrapper .arrow-right,
+.slider-wrapper i[class*="arrow"],
+.slider-wrapper i[class*="chevron"] {
+    display: none !important;
+}
+
+/* حذف هرگونه پیکان یا علامت اسلایدر */
+[class*="arrow"], 
+[class*="chevron"],
+.fa-chevron-right,
+.fa-chevron-left {
+    display: none !important;
+}
+
+/* اضافه کردن استایل برای حذف کامل ناوبری اسلایدر */
+.slider-nav,
+.slider-arrows,
+.carousel-control,
+.carousel-arrow {
+    display: none !important;
+}
+
+/* استایل اضافی برای اطمینان از چسبیدن هدر */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    /* اصلاح موقعیت همبرگر منو */
+    .hamburger {
+        margin-right: 15px;
+    }
+    
+    /* حذف هرگونه فاصله در محتوای اصلی */
+    main, section, .main-content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}

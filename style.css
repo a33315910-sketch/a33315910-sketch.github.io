@@ -1222,12 +1222,14 @@ button.btn-register:hover {
         top: 0;
         left: 0;
         right: 0;
+        width: 100vw;
         max-width: 100%;
         margin: 0;
         padding-left: 0;
         padding-right: 0;
         box-sizing: border-box;
         z-index: 9999;
+        overflow-x: hidden;
     }
 
     .border1,
@@ -1525,8 +1527,13 @@ body {
     width: 100%;
 }
 
-body * {
-    max-width: 100%;
+body, html {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 body.inner-page {

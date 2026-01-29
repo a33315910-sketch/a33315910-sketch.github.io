@@ -1214,6 +1214,7 @@ button.btn-register:hover {
 @media (max-width: 1024px) {
 
     .header {
+
         position: sticky;
         top: 0;
         left: 0;
@@ -1224,11 +1225,6 @@ button.btn-register:hover {
         padding-right: 0;
         box-sizing: border-box;
         z-index: 9999;
-    }
-
-    .border1,
-    .border2 {
-        height: 190px;
     }
 
     .logo {
@@ -1398,7 +1394,7 @@ button.btn-register:hover {
 
 
     main {
-        padding-top: 6rem;
+        padding-top: 30px;
     }
 
     .border1,
@@ -1406,15 +1402,13 @@ button.btn-register:hover {
         margin: 1rem;
         padding: 1.5rem;
         font-size: 0.85rem;
+        height: 180px;
         display: block;
         width: auto;
         max-width: 90%;
     }
 
-    .border2 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+    
 
     .search-box {
         width: 90%;
@@ -1491,7 +1485,7 @@ body.inner-page .bac {
         padding-right: 0;
         box-sizing: border-box;
         z-index: 9999;
-        position: sticky;
+        position: sticky; 
     }
 
     .logo img {

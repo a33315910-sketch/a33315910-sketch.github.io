@@ -1211,16 +1211,6 @@ button.btn-register:hover {
     display: none
 }
 
-html,
-body {
-    max-width: 100%;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 @media (max-width: 1024px) {
 
@@ -1538,5 +1528,5 @@ body.inner-page .bac {
 
 .header .dropdown-content,
 .header .dropdown-content2 {
-    overflow: visible !important;
+    overflow: hidden;
 }

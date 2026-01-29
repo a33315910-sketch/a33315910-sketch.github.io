@@ -28,16 +28,13 @@ header {
     right: 0;
     width: 100%;
     height: 60px;
-    /* کمی ارتفاع دادم تا منو جا بشه */
     padding: 0 2rem;
-    /* فاصله از چپ و راست */
     background: rgba(0, 1, 6, 0.433);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(none);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* لوگو بره چپ، منو بره راست */
     gap: 20px;
     z-index: 1000;
     box-sizing: border-box;
@@ -1214,6 +1211,17 @@ button.btn-register:hover {
     display: none
 }
 
+html,
+body {
+    max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 @media (max-width: 1024px) {
 
     .header {
@@ -1484,9 +1492,6 @@ body.inner-page .bac {
 }
 
 @media (max-width: 480px) {
-    body{
-        overflow-x: hidden;
-    }
     .header {
         overflow-x: hidden;
         top: 0;

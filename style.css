@@ -1217,7 +1217,7 @@ button.btn-register:hover {
 @media (max-width: 1024px) {
 
     .header {
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;

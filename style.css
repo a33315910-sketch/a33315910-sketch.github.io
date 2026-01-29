@@ -1213,13 +1213,16 @@ button.btn-register:hover {
 
 
 @media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
 
     .header {
         position: sticky;
         top: 0;
         left: 0;
         right: 0;
-        width: 100%;
+        max-width: 100%;
         margin: 0;
         padding-left: 0;
         padding-right: 0;
@@ -1230,6 +1233,7 @@ button.btn-register:hover {
     .border1,
     .border2 {
         height: 190px;
+        box-sizing: border-box;
     }
 
     .logo {
@@ -1386,6 +1390,7 @@ button.btn-register:hover {
         max-height: 300px;
         margin-top: 0;
         border-radius: 12px;
+        display: block;
     }
 
     .feature-right-title {
@@ -1480,6 +1485,10 @@ body.inner-page .bac {
 }
 
 @media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .header {
         overflow-x: hidden;
         top: 0;
@@ -1515,7 +1524,8 @@ body {
     background-color: #4B4B55;
     width: 100%;
 }
-body *{
+
+body * {
     max-width: 100%;
 }
 

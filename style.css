@@ -1218,6 +1218,15 @@ button.btn-register:hover {
 
     .header {
         position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        box-sizing: border-box;
+        z-index: 9999;
     }
 
     .border1,
